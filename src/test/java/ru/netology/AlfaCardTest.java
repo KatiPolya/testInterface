@@ -21,10 +21,6 @@ class AlfaCardTest {
     }
 
     @BeforeEach
-    void setupTest() {
-        driver = new ChromeDriver();
-    }
-    @BeforeEach
     void setupTest2() {
         ChromeOptions options = new ChromeOptions();
         options.addArguments("--disable-dev-shm-usage");
